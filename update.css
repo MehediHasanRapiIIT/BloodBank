@@ -1,0 +1,77 @@
+/* Reset some default form styles */
+body{
+    background-color: cadetblue;
+}
+
+
+form {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the form container */
+.form-container {
+    width: 70%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #00000056;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: beige;
+}
+
+/* Style form inputs */
+input[type="text"],
+input[type="password"]
+ {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Center align the form */
+.center-form {
+    text-align: center;
+}
+
+/* Add some margin to the top */
+.form-container {
+    margin-top: 20px;
+}
+.container{
+    max-width: 600px;
+    max-height: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: rgba(139, 0, 0, 0.463);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,90 @@
+/* Add your custom CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    background: url("life.jpg");
+    background-size: 120%;
+    background-position: -80px -150px;
+}
+
+#full {
+    background-color: rgba(2, 50, 66, 0.607);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#Header {
+    background-color: #56030b92;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+h2 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#Body {
+    padding: 20px;
+}
+
+h1 {
+    border: 5px solid rgb(137, 137, 137);
+    background-color: #56030b92;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#form {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #56030b92;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #56030b92;
+}
+
+#Footer {
+    background-color: #56030b92;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
